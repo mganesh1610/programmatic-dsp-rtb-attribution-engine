@@ -1,0 +1,26 @@
+{
+  "rtb_bid_shading": {
+    "total_auctions": 250000,
+    "overall_unshaded_cpa_usd": 75.86,
+    "overall_shaded_cpa_usd": 50.31,
+    "overall_cpa_reduction_pct": 33.68,
+    "avg_win_cpm_reduction_pct": 30.39
+  },
+  "attribution_summary": {
+    "total_annual_spend_usd": 2100000,
+    "total_attributed_conversions": 24600,
+    "blended_portfolio_cpa_usd": 85.37
+  },
+  "dmp_cdp_pacing": {
+    "total_campaigns_monitored": 64,
+    "avg_pacing_underdelivery_reduction_pct": 37.58,
+    "avg_cpm_efficiency_lift_pct": 9.88
+  },
+  "marketplace_reconciliation": {
+    "tables_modeled": 68,
+    "stored_records_reconciled": 289239,
+    "display_attributed_cac_usd": 1115.87,
+    "paid_search_attributed_cac_usd": 1634.59,
+    "cac_savings_uncovered_per_order_usd": 518.72
+  }
+}

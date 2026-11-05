@@ -1,0 +1,5 @@
+segment_tier,campaigns_active,impressions_m,ctr_pct,cvr_pct,cpa_usd,cpm_lift_pct,pacing_underdelivery_reduction_pct
+1st-Party CDP High-LTV Cart Abandoners (GA4 + GTM),18,42.6,1.48,4.62,3.45,11.8,42.5
+1st-Party CRM Repeat Purchasers & Loyalty Lookalikes,15,38.4,1.26,3.95,4.1,10.2,38.4
+DMP In-Market Automotive & Retail Intenders,16,54.1,0.94,3.12,4.68,9.1,35.8
+Contextual + Key-Value High-Viewability PMP/PG Cohorts,15,49.8,0.88,2.84,4.92,8.4,33.6

@@ -1,0 +1,5 @@
+vertical,auctions_evaluated,win_rate_shaded_pct,avg_floor_cpm_usd,avg_unshaded_win_cpm_usd,avg_shaded_win_cpm_usd,avg_shading_factor,unshaded_cpa_usd,shaded_cpa_usd,cpa_reduction_pct,roas_unshaded,roas_shaded
+Automotive,65016,98.33,5.75,38.65,25.98,0.621,133.4,85.6,35.83,1.09,1.69
+Consumer Tech,40074,94.04,5.75,25.23,17.46,0.645,80.96,53.3,34.17,1.09,1.65
+E-Commerce & Retail,94915,91.18,5.77,22.06,15.49,0.658,57.04,38.05,33.29,1.09,1.63
+Entertainment & Streaming,49995,80.34,5.77,15.51,11.41,0.698,44.16,30.83,30.2,1.09,1.56

@@ -1,0 +1,5 @@
+workstream,traders_onboarded,agencies_supported,pre_enablement_days,post_enablement_days,turnaround_reduction_pct,beta_adoption_rate_pct
+Programmatic Trader Onboarding & Certification Playbooks,12,8,14.0,7.0,50.0,91.7
+DSP Beta Feature Enablement (Bid Shading & Audience Expansion),10,6,10.0,5.0,50.0,88.5
+Verification & VAST 4.x Tag QA Automation (IAS / DV / MOAT),14,9,4.0,1.0,75.0,95.0
+BigQuery + Looker Studio / Power BI WBR Scorecard Automation,11,7,3.0,0.5,83.3,93.3

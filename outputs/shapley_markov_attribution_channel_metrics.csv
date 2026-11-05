@@ -1,0 +1,6 @@
+channel,annual_spend_usd,last_touch_share_pct,shapley_share_pct,markov_removal_share_pct,blended_mta_share_pct,attributed_conversions,attributed_cpa_usd,upper_funnel_credit_delta_pct
+Programmatic Display,420000,14.2,18.06,17.6,17.83,4386,95.75,3.63
+In-Stream Video,510000,15.8,18.38,20.4,19.39,4770,106.91,3.59
+OTT / CTV,640000,13.5,22.25,23.1,22.67,5578,114.75,9.17
+Paid Search (SEM),390000,36.4,27.25,23.8,25.53,6280,62.11,-10.87
+Organic Search (SEO),140000,20.1,14.06,15.1,14.58,3586,39.04,-5.52
