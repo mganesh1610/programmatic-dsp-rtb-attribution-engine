@@ -1,0 +1,12 @@
+test_all_zeros (test_pipeline.ExperimentTests.test_all_zeros) ... ok
+test_empty_group_rejected (test_pipeline.ExperimentTests.test_empty_group_rejected) ... ok
+test_holm_capped (test_pipeline.ExperimentTests.test_holm_capped) ... ok
+test_holm_monotonic (test_pipeline.ExperimentTests.test_holm_monotonic) ... ok
+test_identical_rates (test_pipeline.ExperimentTests.test_identical_rates) ... ok
+test_invalid_success_count (test_pipeline.ExperimentTests.test_invalid_success_count) ... ok
+test_spend_difference (test_pipeline.ExperimentTests.test_spend_difference) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
