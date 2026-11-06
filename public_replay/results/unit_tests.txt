@@ -1,0 +1,10 @@
+test_budget_never_exceeded (test_replay.ReplayTests.test_budget_never_exceeded) ... ok
+test_no_clicks_has_no_cpc (test_replay.ReplayTests.test_no_clicks_has_no_cpc) ... ok
+test_schema_rejects_invalid_probability (test_replay.ReplayTests.test_schema_rejects_invalid_probability) ... ok
+test_selection_uses_training_only (test_replay.ReplayTests.test_selection_uses_training_only) ... ok
+test_strict_tie_and_zero_bid (test_replay.ReplayTests.test_strict_tie_and_zero_bid) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

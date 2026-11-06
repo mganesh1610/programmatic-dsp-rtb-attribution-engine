@@ -1,0 +1,68 @@
+{
+  "dataset": "Authors' iPinYou campaign 1458 sample",
+  "upstream_commit": "56f8aea7b9f67eaf6d8d731fc091016f22f2739d",
+  "provenance": {
+    "train": {
+      "url": "https://raw.githubusercontent.com/wnzhang/rtbcontrol/56f8aea7b9f67eaf6d8d731fc091016f22f2739d/exp-data/train.txt",
+      "sha256": "db0ecc0f49626993a2bbadab0561ddb3307926abc161f823e07b707c10aacefd",
+      "rows": 100000,
+      "bytes": 1610459
+    },
+    "test": {
+      "url": "https://raw.githubusercontent.com/wnzhang/rtbcontrol/56f8aea7b9f67eaf6d8d731fc091016f22f2739d/exp-data/test.txt",
+      "sha256": "ba3dc59962ec8f58ffb0ca3de5c833d4b589fc7215857f4ad7beb92726f24798",
+      "rows": 100000,
+      "bytes": 1613845
+    }
+  },
+  "training_mean_ctr": 0.00079,
+  "selection": "Maximum TRAIN replay clicks; ties prefer lower spend, then lower base bid",
+  "selected_base_bid": 300,
+  "holdout_constant_90": {
+    "base_bid": 90,
+    "budget_units": 3424976,
+    "spend_units": 3424973,
+    "wins": 73452,
+    "clicks": 45,
+    "expected_clicks": 38.611801,
+    "win_rate": 0.73452,
+    "budget_utilization": 0.9999991240814534,
+    "cost_per_click_units": 76110.51111111112
+  },
+  "holdout_train_selected_linear": {
+    "base_bid": 300,
+    "budget_units": 3424976,
+    "spend_units": 2341759,
+    "wins": 48972,
+    "clicks": 45,
+    "expected_clicks": 52.83713,
+    "win_rate": 0.48972,
+    "budget_utilization": 0.6837300465755088,
+    "cost_per_click_units": 52039.08888888889
+  },
+  "holdout_request_order_pacing": {
+    "base_bid": 300,
+    "budget_units": 3424976,
+    "spend_units": 3328614,
+    "wins": 63252,
+    "clicks": 49,
+    "expected_clicks": 54.940557,
+    "win_rate": 0.63252,
+    "budget_utilization": 0.9718649123380718,
+    "cost_per_click_units": 67930.89795918367
+  },
+  "row_counts_sql": {
+    "test": 100000,
+    "train": 100000
+  },
+  "sqlite_integrity": "ok",
+  "click_delta_vs_constant": 0,
+  "replay_cpc_reduction_pct": 31.6269,
+  "limitations": [
+    "Logged second-price replay, not first-price bid shading or causal lift.",
+    "One advertiser; sampled records and upstream pCTR; source-model leakage cannot be audited here.",
+    "Prices remain upstream integer units, not USD. No conversions, user journeys, device or vertical labels.",
+    "Pacing uses request order, not elapsed time. No live DSP access, customer beta, adoption or employer outcome is established.",
+    "Legacy modules elsewhere in the repository contain synthetic scenarios and fixed example metrics; they are separate from this replay."
+  ]
+}
