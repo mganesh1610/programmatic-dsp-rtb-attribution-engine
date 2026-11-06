@@ -1,0 +1,5 @@
+vertical,channel,baseline_spend_usd,optimized_spend_usd,baseline_conversions,optimized_conversions,baseline_cpa_usd,optimized_cpa_usd,shapley_markov_blend_weight
+E-Commerce & Retail,Programmatic Display (DSP),420000,445000,4620.1,4717.8,90.91,94.32,0.1756
+E-Commerce & Retail,Paid Search (SEM) & SEO,530000,465000,7553.6,7212.3,70.16,64.47,0.3938
+Automotive,In-Stream Video (DSP),510000,535000,4262.6,4338.5,119.64,123.31,0.202
+Entertainment & Streaming,OTT / CTV Programmatic,640000,655000,5411.5,5457.6,118.27,120.02,0.2285

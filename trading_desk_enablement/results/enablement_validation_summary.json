@@ -1,0 +1,19 @@
+{
+  "module": "trading_desk_enablement",
+  "scope_note": "Parametric Hill-curve media planning and Difference-in-Differences beta/verification simulation for trading-desk consulting walkthroughs.",
+  "annual_media_plan": {
+    "total_baseline_spend_usd": 2100000,
+    "total_optimized_spend_usd": 2100000,
+    "baseline_annual_conversions": 21847.8,
+    "optimized_annual_conversions": 21726.2,
+    "monthly_equivalent_conversions": 19010.4,
+    "conversion_lift_pct": -0.56
+  },
+  "beta_and_verification_summary": {
+    "max_traders_onboarded": 12,
+    "max_demand_partners_enabled": 54,
+    "mean_underdelivery_reduction_pct": 38.62,
+    "mean_viewability_lift_pct": 17.3,
+    "mean_vcr_lift_pct": 15.87
+  }
+}
