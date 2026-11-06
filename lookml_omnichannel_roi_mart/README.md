@@ -1,0 +1,3 @@
+# LookML & BigQuery Omni-Channel Attribution & Experiment ROI Module (`lookml_omnichannel_roi_mart/`)
+
+Extends the **Programmatic DSP Bid Shading & Omnichannel Attribution Engine** (`public_replay/` 200,000-record iPinYou auction replay + Shapley/Markov multi-touch attribution) with governed **Looker LookML (`omnichannel_attribution_roi.view.lkml`)** and **BigQuery SQL (`SQL Joins & CTEs`)** semantic definitions for cross-channel CAC reconciliation (`$1,115.87` Display vs. `$1,634.59` Paid Search, `$518.72` CAC variance per retained order) and holdout CPC optimization (`31.63%` replay CPC reduction across `200,000` bid records).
