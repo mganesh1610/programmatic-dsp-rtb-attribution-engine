@@ -1,0 +1,39 @@
+{
+  "total_auction_logs": 250000,
+  "weighted_effective_cpa_reduction_pct": 31.6,
+  "weighted_verified_viewability_pct": 80.16,
+  "verticals": [
+    {
+      "vertical": "E-Commerce",
+      "auction_logs": 85000,
+      "optimal_shading_lambda": 0.72,
+      "dmp_cdp_audience_lift_pct": 24.5,
+      "verified_viewability_pct": 79.4,
+      "effective_cpa_reduction_pct": 33.4
+    },
+    {
+      "vertical": "Retail",
+      "auction_logs": 65000,
+      "optimal_shading_lambda": 0.75,
+      "dmp_cdp_audience_lift_pct": 21.8,
+      "verified_viewability_pct": 77.8,
+      "effective_cpa_reduction_pct": 31.2
+    },
+    {
+      "vertical": "Automotive",
+      "auction_logs": 52000,
+      "optimal_shading_lambda": 0.68,
+      "dmp_cdp_audience_lift_pct": 19.4,
+      "verified_viewability_pct": 81.2,
+      "effective_cpa_reduction_pct": 29.8
+    },
+    {
+      "vertical": "Entertainment",
+      "auction_logs": 48000,
+      "optimal_shading_lambda": 0.78,
+      "dmp_cdp_audience_lift_pct": 23.1,
+      "verified_viewability_pct": 83.6,
+      "effective_cpa_reduction_pct": 31.1
+    }
+  ]
+}
