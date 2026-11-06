@@ -1,0 +1,10 @@
+{
+  "source": "../campaign_experiments/results/assigned_arm_metrics.csv",
+  "assigned_records": 64000,
+  "conversion_difference_percentage_points": 0.6805006519615695,
+  "gates": 8,
+  "reviewed_program_fixtures": 4,
+  "ready_fixture_programs": 1,
+  "held_fixture_programs": 3,
+  "scope": "Historical randomized email outcomes. Readiness rows and economic assumptions are demonstration fixtures, not clinical operations or realized marketing profit."
+}

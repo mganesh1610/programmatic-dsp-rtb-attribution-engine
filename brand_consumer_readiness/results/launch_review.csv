@@ -1,0 +1,5 @@
+program,status,open_items
+Program A,READY,
+Program B,HOLD,capacity_shortfall
+Program C,HOLD,"brand_approved, partner_deliverables_agreed"
+Program D,HOLD,tracking_validated

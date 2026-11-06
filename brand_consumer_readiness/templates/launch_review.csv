@@ -1,0 +1,5 @@
+program,brand_approved,content_approved,capacity_confirmed,referral_path_tested,tracking_validated,partner_deliverables_agreed,family_experience_reviewed,budget_approved,available_slots,expected_responses
+Program A,yes,yes,yes,yes,yes,yes,yes,yes,100,75
+Program B,yes,yes,yes,yes,yes,yes,yes,yes,40,60
+Program C,no,yes,yes,yes,yes,no,yes,yes,80,50
+Program D,yes,yes,yes,yes,no,yes,yes,yes,50,30

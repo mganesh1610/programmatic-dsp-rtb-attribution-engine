@@ -1,0 +1,12 @@
+test_capacity_shortfall (test_pipeline.ReadinessTests.test_capacity_shortfall) ... ok
+test_contribution (test_pipeline.ReadinessTests.test_contribution) ... ok
+test_empty_capacity (test_pipeline.ReadinessTests.test_empty_capacity) ... ok
+test_missing_approval (test_pipeline.ReadinessTests.test_missing_approval) ... ok
+test_negative_capacity (test_pipeline.ReadinessTests.test_negative_capacity) ... ok
+test_ready (test_pipeline.ReadinessTests.test_ready) ... ok
+test_zero_spend (test_pipeline.ReadinessTests.test_zero_spend) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

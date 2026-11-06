@@ -1,0 +1,4 @@
+asset_id,program,asset_type,audience,channel,owner,brand_approval,clinical_approval,review_due,call_to_action,tracking_id
+BIO-001,Program A,provider_bio,parents,website,content_lead,pending,pending,2026-12-01,request_appointment,
+BLOG-001,Program A,blog,parents,organic_social,editor,pending,pending,2026-12-01,learn_more,
+SPORT-001,Program B,sports_activation,families,community,partnership_lead,pending,pending,2026-12-01,service_information,
