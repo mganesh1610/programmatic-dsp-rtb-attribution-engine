@@ -1,0 +1,54 @@
+{
+  "module": "cost_benefit_experiment_forecasting",
+  "combined_upstream_records": {
+    "ipinyou_auction_replay_rows": 200000,
+    "hillstrom_randomized_experiment_rows": 64000,
+    "total_verified_records": 264000
+  },
+  "verified_replay_cpc_reduction_pct": 31.63,
+  "verified_mens_email_conversion_lift_pp": 0.6805,
+  "shapley_conservation_check": {
+    "channel_count": 4,
+    "total_attributed_revenue_usd": 494999.99,
+    "grand_coalition_revenue_usd": 495000.0
+  },
+  "channel_cost_benefit_frontier": [
+    {
+      "channel": "Paid_Search",
+      "spend_usd": 58000.0,
+      "shapley_attributed_revenue_usd": 173333.33,
+      "attribution_share_pct": 35.02,
+      "roas_ratio": 2.989,
+      "net_cost_benefit_usd": 115333.33
+    },
+    {
+      "channel": "Programmatic_Display",
+      "spend_usd": 39500.0,
+      "shapley_attributed_revenue_usd": 122833.33,
+      "attribution_share_pct": 24.81,
+      "roas_ratio": 3.11,
+      "net_cost_benefit_usd": 83333.33
+    },
+    {
+      "channel": "Video_YouTube",
+      "spend_usd": 36000.0,
+      "shapley_attributed_revenue_usd": 113333.33,
+      "attribution_share_pct": 22.9,
+      "roas_ratio": 3.148,
+      "net_cost_benefit_usd": 77333.33
+    },
+    {
+      "channel": "Lifecycle_Email",
+      "spend_usd": 14500.0,
+      "shapley_attributed_revenue_usd": 85500.0,
+      "attribution_share_pct": 17.27,
+      "roas_ratio": 5.897,
+      "net_cost_benefit_usd": 71000.0
+    }
+  ],
+  "rolling_12_week_forecasting": {
+    "baseline_plan_mape_pct": 18.71,
+    "model_forecast_mape_pct": 9.08,
+    "plan_vs_actual_variance_reduction_pct": 51.48
+  }
+}
