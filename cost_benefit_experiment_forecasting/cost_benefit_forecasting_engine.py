@@ -87,7 +87,7 @@ def compute_shapley_and_cost_benefit() -> Dict[str, object]:
             {
                 "channel": ch,
                 "spend_usd": sp,
-                "shapley_attributed_revenue_usd": round(val, 2),
+                "shapley_attributed_revenue_usd": round(val, 4),
                 "attribution_share_pct": round((val / total_val) * 100.0, 2),
                 "roas_ratio": round(roas, 3),
                 "net_cost_benefit_usd": round(net_benefit, 2),
