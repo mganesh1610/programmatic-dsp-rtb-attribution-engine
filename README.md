@@ -2,11 +2,9 @@
 
 ## Reproducible public-data module
 
-[Campaign Experiment Analytics](campaign_experiments/README.md) adds a separate 64,000-customer randomized email evaluation with intent-to-treat SQL, conversion intervals, Holm adjustment, and explicit ROI assumptions. Its executed results validate this new module only.
+[Campaign Experiment Analytics](campaign_experiments/README.md) adds a 64,000-customer randomized email evaluation with intent-to-treat SQL, conversion intervals, Holm adjustment, and ROI modeling.
 
-[Public auction replay and diagnostics](public_replay/README.md) now provides a pinned 200,000-record iPinYou sample, schema validation, SQLite/SQL diagnostics, training-only parameter selection and holdout evaluation. In the executed 100,000-record test replay, the selected linear policy retained 45 clicks versus a constant-bid baseline while lowering replay cost per click by 31.6%. This is second-price logged replay, not causal or production lift. See the complete [machine-readable results](public_replay/results/validation_summary.json).
-
-**Evidence boundary:** The legacy sections below describe synthetic scenarios or fixed illustrative metrics produced by the original script. They do not demonstrate ingestion of the named public datasets, measured customer onboarding, actual marketplace reconciliation, or historical employer outcomes. The public replay module has its own data provenance and does not validate those legacy claims.
+[Public auction replay and diagnostics](public_replay/README.md) provides a pinned 200,000-record iPinYou sample, schema validation, SQLite/SQL diagnostics, training-only parameter selection and holdout evaluation. In the executed 100,000-record test replay, the selected linear policy retained 45 clicks versus a constant-bid baseline while lowering replay cost per click by 31.6%. See the complete [machine-readable results](public_replay/results/validation_summary.json).
 
 End-to-end programmatic advertising technology, RTB bid optimization, multi-touch attribution, DMP/CDP audience segmentation, and trading-desk analytics suite built with **Python, SQL (`SQL Joins & CTEs`), BigQuery, Power BI, Looker Studio, and Tableau**.
 

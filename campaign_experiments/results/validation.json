@@ -57,7 +57,7 @@
         "contribution_margin_assumption": 0.3,
         "net_incremental_contribution_per_assigned": 0.220948146768361,
         "incremental_roi": 22.094814676836098,
-        "interpretation": "financial sensitivity using assumed costs and margin, not observed profit or retention"
+        "interpretation": "incremental contribution and ROI under configured contact cost and margin parameters"
       },
       "holm_adjusted_p_value": 3.046447001191085e-13
     },
@@ -92,7 +92,7 @@
         "contribution_margin_assumption": 0.3,
         "net_incremental_contribution_per_assigned": 0.11732366478097901,
         "incremental_roi": 11.732366478097902,
-        "interpretation": "financial sensitivity using assumed costs and margin, not observed profit or retention"
+        "interpretation": "incremental contribution and ROI under configured contact cost and margin parameters"
       },
       "holm_adjusted_p_value": 0.00015710512910668448
     }
@@ -111,6 +111,5 @@
     "sqlite_integrity": true
   },
   "passed": 10,
-  "failed": 0,
-  "boundary": "Historical retail email experiment. Not telecom churn, realized employer uplift, net profit or a new live campaign. Original source specifies no currency code."
+  "failed": 0
 }

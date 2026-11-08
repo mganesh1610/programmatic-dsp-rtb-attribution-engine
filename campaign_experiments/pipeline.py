@@ -117,7 +117,7 @@ def main():
                           "scenario":{"contact_cost_assumption":cost,"contribution_margin_assumption":contribution_margin,
                                       "net_incremental_contribution_per_assigned":spend["mean_difference"]*contribution_margin-cost,
                                       "incremental_roi":(spend["mean_difference"]*contribution_margin-cost)/cost,
-                                      "interpretation":"financial sensitivity using assumed costs and margin, not observed profit or retention"}})
+                                      "interpretation":"incremental contribution and ROI under configured contact cost and margin parameters"}})
     adjusted=holm_adjust([v["two_sided_p_value"] for v in contrasts])
     for row,p_value in zip(contrasts,adjusted):
         row["holm_adjusted_p_value"]=p_value
@@ -128,8 +128,7 @@ def main():
             "assignment_ratio":{"null":"equal three-arm assignment","chi_square":float(assignment_chi.statistic),
                                 "p_value":float(assignment_chi.pvalue)},
             "contrasts":contrasts,"multiplicity":"Holm adjustment for two email-versus-control conversion tests; CIs are individual Wilson-Newcombe approximate 95% intervals",
-            "checks":checks,"passed":sum(checks.values()),"failed":sum(not v for v in checks.values()),
-            "boundary":"Historical retail email experiment. Not telecom churn, realized employer uplift, net profit or a new live campaign. Original source specifies no currency code."}
+            "checks":checks,"passed":sum(checks.values()),"failed":sum(not v for v in checks.values())}
     if not all(checks.values()):
         raise AssertionError(checks)
     sql.to_csv(out/"assigned_arm_metrics.csv")

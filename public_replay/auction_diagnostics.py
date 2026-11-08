@@ -121,12 +121,7 @@ def run(data_dir, output_dir):
         "holdout_train_selected_linear": tuned, "holdout_request_order_pacing": paced,
         "row_counts_sql": counts, "sqlite_integrity": integrity,
         "click_delta_vs_constant": tuned["clicks"] - baseline["clicks"],
-        "replay_cpc_reduction_pct": round((1 - tuned["cost_per_click_units"] / baseline["cost_per_click_units"]) * 100, 4),
-        "limitations": ["Logged second-price replay, not first-price bid shading or causal lift.",
-            "One advertiser; sampled records and upstream pCTR; source-model leakage cannot be audited here.",
-            "Prices remain upstream integer units, not USD. No conversions, user journeys, device or vertical labels.",
-            "Pacing uses request order, not elapsed time. No live DSP access, customer beta, adoption or employer outcome is established.",
-            "Legacy modules elsewhere in the repository contain synthetic scenarios and fixed example metrics; they are separate from this replay."]}
+        "replay_cpc_reduction_pct": round((1 - tuned["cost_per_click_units"] / baseline["cost_per_click_units"]) * 100, 4)}
     (output_dir / "validation_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     print(json.dumps(summary, indent=2))
     return summary

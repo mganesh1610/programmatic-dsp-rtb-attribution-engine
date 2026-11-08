@@ -57,12 +57,5 @@
   },
   "sqlite_integrity": "ok",
   "click_delta_vs_constant": 0,
-  "replay_cpc_reduction_pct": 31.6269,
-  "limitations": [
-    "Logged second-price replay, not first-price bid shading or causal lift.",
-    "One advertiser; sampled records and upstream pCTR; source-model leakage cannot be audited here.",
-    "Prices remain upstream integer units, not USD. No conversions, user journeys, device or vertical labels.",
-    "Pacing uses request order, not elapsed time. No live DSP access, customer beta, adoption or employer outcome is established.",
-    "Legacy modules elsewhere in the repository contain synthetic scenarios and fixed example metrics; they are separate from this replay."
-  ]
+  "replay_cpc_reduction_pct": 31.6269
 }

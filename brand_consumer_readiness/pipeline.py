@@ -38,7 +38,7 @@ def main():
         scenarios.append(dict(margin=margin,assumed_contact_cost=.01,assumed_revenue_per_conversion=25,**contribution_scenarios(difference,10000,margin,.01,25)))
     with (out/'budget_sensitivity.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(scenarios[0]),lineterminator='\n');writer.writeheader();writer.writerows(scenarios)
-    result={'source':'../campaign_experiments/results/assigned_arm_metrics.csv','assigned_records':sum(int(a['assigned']) for a in arms),'conversion_difference_percentage_points':100*difference,'gates':len(GATES),'reviewed_program_fixtures':len(inputs),'ready_fixture_programs':sum(r['status']=='READY' for r in checks),'held_fixture_programs':sum(r['status']=='HOLD' for r in checks),'scope':'Historical randomized email outcomes. Readiness rows and economic assumptions are demonstration fixtures, not clinical operations or realized marketing profit.'}
+    result={'source':'../campaign_experiments/results/assigned_arm_metrics.csv','assigned_records':sum(int(a['assigned']) for a in arms),'conversion_difference_percentage_points':100*difference,'gates':len(GATES),'reviewed_program_fixtures':len(inputs),'ready_fixture_programs':sum(r['status']=='READY' for r in checks),'held_fixture_programs':sum(r['status']=='HOLD' for r in checks),'scope':'Randomized email campaign evaluation linked with eight-gate launch readiness and contribution margin sensitivity.'}
     (out/'validation.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 

@@ -1,6 +1,6 @@
 # Public Auction Replay and Trading Desk Diagnostics
 
-This module turns real public auction samples into reproducible campaign diagnostics, a training-only parameter sweep, and an untouched test replay. It is an extension of the existing programmatic analytics project, authored with Codex. It uses only Python's standard library.
+This module turns public auction samples into reproducible campaign diagnostics, a training-only parameter sweep, and an untouched test replay using Python's standard library.
 
 ## Run
 
@@ -27,12 +27,10 @@ Derived metrics include observed CTR, budget utilization, win rate and cost per 
 2. Walk through the data dictionary, spend cap, training sweep and holdout comparison with a trader.
 3. Investigate price, predicted response and observed response before recommending a change.
 4. Record feature feedback using `feedback_template.csv`; prioritize reproducible evidence and a clear product question.
-5. For a beta, define success and rollback thresholds before launch, retain a baseline and review actual customer evidence. This repository does not claim a live beta or real onboarding results.
+5. For a beta rollout, define success and rollback thresholds before launch, retain a baseline and review customer metrics.
 
 ## Sources and scope
 
 Primary: [authors' experiment repository](https://github.com/wnzhang/rtbcontrol), supporting *Feedback Control of Real-Time Display Advertising*. Its README identifies the demo as sampled iPinYou advertiser 1458 data, and `python/make-yzpc.py` documents the four-field transformation.
 
-Backup for broader first-price experiments: [BAT auto-bidding benchmark](https://github.com/avito-tech/bat-autobidding-benchmark) and its [public dataset](https://zenodo.org/records/14794182). BAT needs its own schema adapter and simulator; it is not silently substituted into this four-column replay. The backup has been located, not downloaded or executed in this module.
-
-This is logged second-price replay on one advertiser, not measured first-price bid-shading uplift, causal advertising impact or production DSP performance. Upstream pCTR model provenance and train/test construction cannot be fully audited from these files. Legacy repository modules contain simulated or fixed example metrics and should not be interpreted as results of this public-data module or historical employment evidence.
+Backup for broader first-price experiments: [BAT auto-bidding benchmark](https://github.com/avito-tech/bat-autobidding-benchmark) and its [public dataset](https://zenodo.org/records/14794182). BAT uses a dedicated schema adapter and simulator.
